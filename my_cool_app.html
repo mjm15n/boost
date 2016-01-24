@@ -1,15 +1,63 @@
+<!DOCTYPE html>
+<html>
 <head>
-  <title>my_cool_app</title>
+	<link type="text/css" rel="stylesheet" href="my_cool_app.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+	
+	<center><img class="head_img" src="boost.png" width="200px"></center>
+
+
 </head>
-
 <body>
-<h1>Welcome to Caffeine King!</h1>
+	<h1 id='idname' class='hello'></h1>
 
-  {{> hello}}
+	
+
+<h1>How are you feeling today?</h1>
+
+			<div id="1">
+				<div id="happy" class="option option1"><img src="happy.png"></div>
+				<div id="pickup" class="option option1"><img src="pickup.png"></div>
+				<div id="tired" class="option option1"><img src="tired.png"></div>
+				<div id="stressed" class="option option1"><img src="stressed.png"></div>
+			</div>
+
+<h1>What time of day is it?</h1>
+
+			<div id="2">
+				<div id="morning" class="option option2"><img src="morning.png"></div>
+				<div id="afternoon" class="option option2"><img src="afternoon.png"></div>
+				<div id="evening" class="option option2"><img src="evening.png"></div>
+				<div id="latenight" class="option option2"><img src="latenight.png"></div>
+			</div>
+
+<h1>What season is it?</h1>
+
+
+			<div id="3">
+				<div id="spring" class="option option3"><img src="spring.png"></div>
+				<div id="winter" class="option option3"><img src="winter.png"></div>
+				<div id="summer" class="option option3"><img src="summer.png"></div>
+				<div id="autumn" class="option option3"><img src="autumn.png"></div>
+			</div>
+
+<h1>What are you up to?</h1>
+
+			<div id="4">
+				<div id="studying" class="option option4"><img src="studying.png"></div>
+				<div id="traveling" class="option option4"><img src="traveling.png"></div>
+				<div id="unnamed" class="option option4"><img src="unnamed.png"></div>
+				<div id="justbc" class="option option4"><img src="justbc.png"></div>
+			</div>
+
+	<a class="serve_drink" href="#">Pour One</a>
+	<div class="drink_results"></div>
+
+
+	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+	<script type="text/javascript" src="my_cool_app.js"></script>
+
 </body>
-
-<template name="hello">
-  <button>Click Me</button>
-  <p>This app will help you pick what coffee matches your mood!</p>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
+</html>

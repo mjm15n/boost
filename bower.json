@@ -1,0 +1,22 @@
+{
+  "name": "my_cool_app",
+  "main": "my_cool_app.js",
+  "homepage": "https://github.com/mjm15n/my_cool_app",
+  "authors": [
+    "meganburgman"
+  ],
+  "description": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-2.2.0.min": "http://code.jquery.com/jquery-2.2.0.min.js"
+  }
+}

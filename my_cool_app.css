@@ -1,1 +1,37 @@
-/* CSS declarations go here */
+body{
+	background-color: #992b38;
+}
+
+
+h1{
+	text-align: center;
+}
+
+.option {
+	padding: 5px;
+	border: none;
+	position: auto;
+	width: 160px;
+	display: inline-block;
+	margin: 70px;
+}
+
+.option:hover img {
+	
+	opacity: .6;
+	cursor: pointer;
+
+}
+
+
+h1{
+	font-family: 'Cabin';
+	color: white;
+}
+
+.head_img {
+padding-top: 80px;
+padding-bottom: 80px;
+
+
+}
