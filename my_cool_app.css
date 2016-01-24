@@ -13,7 +13,7 @@ h1{
 	position: auto;
 	width: 160px;
 	display: inline-block;
-	margin: 70px;
+	margin: 60px;
 }
 
 .option:hover img {
@@ -35,3 +35,77 @@ padding-bottom: 80px;
 
 
 }
+
+.serve_drink{
+	display: block;
+	font-size: 40px;
+	color: white;
+	font-family: 'Cabin';
+	text-align: center;
+	padding-bottom: 20px;
+	border: 2px white;
+
+}
+
+.drink_results{
+	font-size: 30px;
+	color: white;
+	font-family: 'Cabin';
+	padding-top: 40px;
+	display: block;
+	text-align: center; 
+	padding-bottom: 50px;
+}
+
+body{
+  background-color:#992b38;
+}
+.content {
+  margin: 5% 0 0 0%;
+}
+.shake {
+	display:inline-block;
+}
+.shake {
+	display:block;
+	position:relative;
+	bottom: 500px;
+	right: -5px;
+}
+svg.Logo{
+display: block;
+height: 250px;
+width: 250px;
+}
+svg{
+height: 130px;
+width: 130px;
+
+}
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake:hover,
+.shake:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#1{
+	display: block;
+}
+
