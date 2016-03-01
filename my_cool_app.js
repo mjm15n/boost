@@ -56,25 +56,34 @@ var parse_activity_map = {
   justbc: ['sEHDHak1Hd','ahsePRuWYs','CLm5USkSKF','eHglyllbSM','murxy6uuyV','EEucFUGQZA'],
 }
 
+function scrolll(el) {
+  console.log(el, $(el).length)
+  $('html,body').animate({
+    scrollTop: $(el).offset().top
+  }, 1000);
+}
+
 $(".option1").click(function(e){
   e.preventDefault();
   var id= $(this).attr('id');
   var parse_ids = parse_feelings_map[id];
-  
+  scrolll('#time');
+
   getDrinks(parse_ids);
 });
 $(".option2").click(function(e){
   e.preventDefault();
   var id= $(this).attr('id');
   var parse_ids = parse_time_map[id];
-  
+   scrolll('#season');  
+
   getDrinks(parse_ids);
 });
 $(".option3").click(function(e){
   e.preventDefault();
   var id= $(this).attr('id');
   var parse_ids = parse_season_map[id];
-  
+  scrolll('#activity');
   getDrinks(parse_ids);
 });
 $(".option4").click(function(e){
@@ -105,3 +114,5 @@ var array1 = ['happy', 'pickup', 'tired', 'stressed'];
 var array2 = ['morning', 'afternoon', 'evening', 'latenight'];
 var array3 = ['spring', 'winter', 'summer', 'autumn'];
 var array4 = ['studying', 'traveling', 'unnamed', 'justbc'];
+
+
